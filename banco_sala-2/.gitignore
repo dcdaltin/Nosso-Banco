@@ -1,1 +1,4 @@
-node_modules
+node_modules/
+.sequelize.rc
+package-lock.json
+.env
