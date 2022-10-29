@@ -2,7 +2,7 @@ import express from 'express';
 import  { config } from 'dotenv';
 
 
-import { rotaPrincipal } from './src/routes/routes.js';
+import { rotaPrincipal } from './src/aplicacao/routes/routes.js';
 
 const app = express();
 app.use(rotaPrincipal);

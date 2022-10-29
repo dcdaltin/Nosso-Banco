@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { consultarSaldo } from '../controllers/controller.js';
+import { consultarSaldo } from '../controller.js';
 
 export const rotaPrincipal = Router()
 
